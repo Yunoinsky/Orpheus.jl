@@ -6,10 +6,15 @@ using InteractiveUtils
 
 # ╔═╡ fdde144a-3cbd-4823-9986-2bca0cf18b48
 begin
-	import Pkg
-	Pkg.activate(Base.current_project())
-	using Orpheus
-	init_score_render()
+	local_debug = false
+ 	import Pkg
+	if local_debug
+	 	Pkg.activate(Base.current_project())
+	else
+		Pkg.add(url="https://github.com/Yunoinsky/Orpheus.jl")
+	end
+ 	using Orpheus
+ 	init_score_render()	
 end
 
 # ╔═╡ 7287f790-eb91-11ef-0b8d-39ce639f191e

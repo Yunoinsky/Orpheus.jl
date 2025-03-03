@@ -1,9 +1,14 @@
 # Orpheus.jl
-Orpheus.jl: Enhance Julia’s PlutoUI with Music Notation Capabilities
+Orpheus.jl: Enhance Julia’s Pluto Notebook with Music Notation Capabilities
 
 > **Orpheus** plays the lyre and sings to charm the King and Queen of the Underworld, **Pluto** and Proserpine.
 
 ## Installation
+This package is still under development. You can install it from the github repository.
+```julia
+using Pkg;
+Pkg.add(url="https://github.com/Yunoinsky/Orpheus.jl")
+```
 
 ## Usage
 You can find our examples in the [**examples**](examples) folder.
