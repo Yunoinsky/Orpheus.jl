@@ -1,0 +1,10 @@
+name = "Orpheus"
+uuid = "701fa04d-8ff6-42a5-87a8-82b711367820"
+authors = ["Yunoinsky Chen <yunoinsky@gmail.com>"]
+version = "0.0.1"
+
+[deps]
+HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
+
+[compat]
+HypertextLiteral = "0.9.5"
